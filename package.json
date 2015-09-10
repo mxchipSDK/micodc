@@ -1,0 +1,29 @@
+{
+  "name": "micodc",
+  "version": "0.0.1",
+  "description": "native js for MiCO",
+  "main": "micodc.js",
+  "dependencies": {
+    "md5": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "var a=require(\"micodc\");a.init(\"Rocke\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bringmehome/micodc.git"
+  },
+  "keywords": [
+    "fog",
+    "mico",
+    "dc",
+    "dcloud"
+  ],
+  "author": "Rocke",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bringmehome/micodc/issues"
+  },
+  "homepage": "https://github.com/bringmehome/micodc#readme"
+}
