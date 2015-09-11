@@ -107,7 +107,6 @@
 	m.startmDNS = function(serviceName, callback) {
 		var errm;
 		plus.micoPlugin.openmDNS(serviceName, function(ret) {
-			alert("dc  ret = "+ ret);
 			callback(JSON.parse(ret), errm);
 		});
 	};
@@ -176,6 +175,6 @@
 	};
 
 	/*end*/
-	window.$mico = m;
+	window.MiCO = m;
 
 })(window);
